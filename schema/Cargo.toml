@@ -1,0 +1,15 @@
+[package]
+name = "schema"
+version = "0.1.0"
+authors = ["Chris Bruce <chris@lumeo.com>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+
+[dev-dependencies]
+assert_approx_eq = "1.1.0"
+async-trait = "0.1.42"
+tokio = { version = "1.0.1", features = ["full"] }
+yaserde = "0.7.1"
+yaserde_derive = "0.7.1"

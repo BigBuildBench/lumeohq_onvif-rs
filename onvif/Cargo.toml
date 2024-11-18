@@ -1,0 +1,19 @@
+[package]
+name = "onvif"
+version = "0.1.0"
+authors = ["Chris Bruce <chris@lumeo.com>"]
+edition = "2018"
+license = "MIT"
+
+[features]
+tls = ["reqwest/native-tls"]
+
+[dependencies]
+
+[dev-dependencies]
+dotenv = "0.15.0"
+futures-util = "0.3.8"
+structopt = "0.3.21"
+tokio = { version = "1.0.1", features = ["full"] }
+tracing-subscriber = "0.2.20"
+b_2 = { path = "../wsdl_rs/b_2" }
